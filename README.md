@@ -82,7 +82,7 @@ Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda bua
 ## Full Code
 Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type pesan yg diperbolehkan.
 
->>Bootstrap v5 (required)
+>Bootstrap v5 (required)
 
 ## Simple
 ```html
