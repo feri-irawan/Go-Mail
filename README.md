@@ -120,7 +120,33 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 
 ## Verify Code
 ```html
+<h2>Send Verification Code</h2>
+<form action="http://gomail.epizy.com/mail.php" method="get">
+  <div class="mb-3">
+    <label for="destination_name">To Name</label>
+    <input type="text" name="destination_name" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label for="email_destination">To Email</label>
+    <input type="email" name="email_destination" class="form-control">
+  </div>
+  
+  <div class="mb-3 col-6">
+    <label for="verify_code">Verification Code</label>
+    <input type="number" name="verify_code" class="form-control">
+  </div>
 
+  <button type="submit" name="GoMail" class="btn btn-primary">Submit <i class="fas fa-paper-plane"></i></button>
+
+  <!-- Configuration GoMail -->
+  <div id="GoMail">
+    <!-- Message Type -->
+    <input value="verify_code" name="message_type">
+    
+    <!-- Company -->
+    <input value="GoMail" name="company_name">
+  </div>
+</form>
 ```
 ## Rilis
 v1.0.0 (1/3/21)
