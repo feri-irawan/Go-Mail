@@ -67,4 +67,7 @@ Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda bua
     name="message_type"
 ```
 
+## Rilis
+v1.0.0 (1/3/21)
+
 Created 2021 by Feri Irawan
