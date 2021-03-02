@@ -28,6 +28,7 @@ Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di
 
 ## Form Configuration
 Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, informasi penerima pesan, atau bahkan nama perusahaan pengirim pesan.
+
     <div id="GoMail">
       <!-- Message Typw -->
       <input value="simple" name="message_type">
@@ -39,6 +40,7 @@ Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, 
       <!-- Company -->
       <input value="GoMail" name="company_name">
     </div>
+
 Perhatikan bagian "Recipient Information" pada kode diatas. Jika tujuan anda ingin membuat form kontak untuk seaeorang mengirim pesan kepada anda, anda bisa mengisi nilai dari atribut <code>value</code> sesuai dengan nama anda dan email anda sendiri
 
 ## Nama Input
