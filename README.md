@@ -103,16 +103,16 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 
   <button type="submit" name="GoMail" class="btn btn-primary">Submit <i class="fas fa-paper-plane"></i></button>
  
-  <!-- Konfigurasi GoMail -->
+  <!-- Coiguration GoMail -->
   <div id="GoMail">
-    <!-- Jenis Pesan -->
+    <!-- Message Type -->
     <input value="simple" name="message_type">
     
-    <!-- Info Penerima -->
+    <!-- Recipient Information -->
     <input value="Feri Irawan" name="destination_name">
     <input value="feriirawans1998@gmail.com" name="email_destination">
     
-    <!-- Perushaan -->
+    <!-- Company -->
     <input value="GoMail" name="company_name">
   </div>
 </form>
