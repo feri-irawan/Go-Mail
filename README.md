@@ -10,22 +10,22 @@ Demo 2:
 ## Cara Menggunakan:
 Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
 Namun ada beberapa nilai atribut <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input). Contoh:
-    
-    <!-- True --> 
-    <input type="text" name="name">
-    <!-- False --> 
-    <input type="text" name="username">
-    
+```html   
+<!-- True --> 
+<input type="text" name="name">
+<!-- False --> 
+<input type="text" name="username">
+```    
 Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di perbolehkan untuk menggunakan dua nilai dari atribut <code>name</code>, yaitu:
-    
-    <button type="submit" name="GoMail">Submit</button>
-    <!-- or --> 
-    <input type="submit" name="GoMail" value="submit"/>
-    <!-- and --> 
-    <button type="submit" name="submit">Submit</button>
-    <!-- or --> 
-    <input type="submit" name="submit" value="submit"/>
-
+```html   
+<button type="submit" name="GoMail">Submit</button>
+  <!-- or --> 
+<input type="submit" name="GoMail" value="submit"/>
+  <!-- and --> 
+<button type="submit" name="submit">Submit</button>
+  <!-- or --> 
+<input type="submit" name="submit" value="submit"/>
+```
 ## Form Configuration
 Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, informasi penerima pesan, atau bahkan nama perusahaan pengirim pesan.
 ```html
