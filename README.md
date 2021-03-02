@@ -20,7 +20,7 @@ Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code>
   <input type="text" name="username">
 </form>
 ``` 
-Perhatikan pada atribut <code>action=""<code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>.
+Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>.
 
 Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code> tidak <code>value</code> untuk saat ini tidak akan dikenali oleh GoMail. Namu anda bisa menggantingannya dengan <code>name="name"</code>.
 
