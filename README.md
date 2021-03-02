@@ -50,8 +50,10 @@ Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, 
 </div>
 ```
 
-Perhatikan bagain "Message Type" pada kode diatas, input dengan <code>name="message_type"</code> akan dikenali sebagai jenis/type pesan dan tipe ini ditentukan oleh nilai dari atribut <code>value=""</code> yang untuk saat ini hanya dapat diisi dengan <code>value="simple"</code> dan <code>value="verify_code"</code>  
+Perhatikan bagain "Message Type" pada kode diatas, input dengan <code>name="message_type"</code> akan dikenali sebagai jenis/type pesan dan tipe ini ditentukan oleh nilai dari atribut <code>value=""</code> yang untuk saat ini hanya dapat diisi dengan <code>value="simple"</code> dan <code>value="verify_code"</code> 
+
 Perhatikan bagian "Recipient Information" pada kode diatas. Jika tujuan anda ingin membuat form kontak untuk seaeorang mengirim pesan kepada anda, anda bisa mengisi nilai dari atribut <code>value</code> sesuai dengan nama anda dan email anda sendiri
+
 
 ## Nama Input
 Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda buat dapat berfungsi dengan semestinya (masih dalam perkembangan).
@@ -77,6 +79,49 @@ Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda bua
     name="message_type"
 ```
 
+## Full Code
+Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type pesan yg diperbolehkan.
+
+>>Bootstrap v5 (required)
+
+## Simple
+```html
+<h2>Simple Form</h2>
+<form action="http://gomail.epizy.com/mail.php" method="get">
+  <div class="mb-3">
+    <label for="name">Name</label>
+    <input type="text" name="name" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label for="message">Message</label>
+    <textarea name="message" rows="6" cols="40" class="form-control"></textarea>
+  </div>
+
+  <button type="submit" name="GoMail" class="btn btn-primary">Submit <i class="fas fa-paper-plane"></i></button>
+ 
+  <!-- Konfigurasi GoMail -->
+  <div id="GoMail">
+    <!-- Jenis Pesan -->
+    <input value="simple" name="message_type">
+    
+    <!-- Info Penerima -->
+    <input value="Feri Irawan" name="destination_name">
+    <input value="feriirawans1998@gmail.com" name="email_destination">
+    
+    <!-- Perushaan -->
+    <input value="GoMail" name="company_name">
+  </div>
+</form>
+```
+
+## Verify Code
+```html
+
+```
 ## Rilis
 v1.0.0 (1/3/21)
 
