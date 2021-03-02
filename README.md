@@ -22,7 +22,7 @@ Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code>
 ``` 
 Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali.
 
-Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code> tidak <code>value</code> untuk saat ini tidak akan dikenali oleh GoMail. Namu anda bisa menggantingannya dengan <code>name="name"</code>.
+Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code>. Untuk saat ini, atribut dengan nama seperti itu tidak akan dikenali oleh Go-Mail dan akan diabaikan. Namun, anda bisa menggantinya dengan <code>name="name"</code>.
 
 Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di perbolehkan untuk menggunakan dua nilai dari atribut <code>name</code>, yaitu:
 ```html   
