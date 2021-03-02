@@ -28,7 +28,7 @@ Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di
 
 ## Form Configuration
 Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, informasi penerima pesan, atau bahkan nama perusahaan pengirim pesan.
-
+```html
     <div id="GoMail">
       <!-- Message Typw -->
       <input value="simple" name="message_type">
