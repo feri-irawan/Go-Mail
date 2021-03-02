@@ -10,5 +10,5 @@ Demo 2:
 Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
 Namun ada beberapa nilai atribut name="" di tag <code>input</code> yang harus Anda tulis, contoh:
      
-    <input type="text" name="name" class="form-control">
+  <input type="text" name="name" class="form-control">
  
