@@ -5,7 +5,7 @@ Kirim pesan email HTML ke seseorang dengan mudah lewat web kamu sendiri.
 [https://gomail.netlify.app/](https://gomail.netlify.app/ "Go-Mail")
 
 *Demo 2:*
-[https://gomail.epizy.com/](https://gomail.epizy.com/ "Go-Mail")
+[http://gomail.epizy.com/](https://gomail.epizy.com/ "Go-Mail")
 
 ## Cara Menggunakan:
 Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
