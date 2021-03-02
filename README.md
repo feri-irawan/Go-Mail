@@ -8,7 +8,7 @@ Demo 2:
 
 ## Cara Menggunakan:
 Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
-Namun ada beberapa nilai atribut <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#input name)
+Namun ada beberapa nilai atribut <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input)
 Contoh:
     
     <!-- True --> 
