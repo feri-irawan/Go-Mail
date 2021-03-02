@@ -29,17 +29,17 @@ Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di
 ## Form Configuration
 Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, informasi penerima pesan, atau bahkan nama perusahaan pengirim pesan.
 ```html
-    <div id="GoMail">
-      <!-- Message Typw -->
-      <input value="simple" name="message_type">
-      
-      <!-- Recipient Information -->
-      <input value="Feri Irawan" name="destination_name">
-      <input value="feriirawans1998@gmail.com" name="email_destination">
-      
-      <!-- Company -->
-      <input value="GoMail" name="company_name">
-    </div>
+<div id="GoMail">
+  <!-- Message Typw -->
+  <input value="simple" name="message_type">
+  
+  <!-- Recipient Information -->
+  <input value="Feri Irawan" name="destination_name">
+  <input value="feriirawans1998@gmail.com" name="email_destination">
+  
+  <!-- Company -->
+  <input value="GoMail" name="company_name">
+</div>
 ```
 Perhatikan bagian "Recipient Information" pada kode diatas. Jika tujuan anda ingin membuat form kontak untuk seaeorang mengirim pesan kepada anda, anda bisa mengisi nilai dari atribut <code>value</code> sesuai dengan nama anda dan email anda sendiri
 
