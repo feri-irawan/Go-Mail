@@ -9,13 +9,21 @@ Demo 2:
 
 ## Cara Menggunakan:
 Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
-Namun ada beberapa nilai atribut <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input). Contoh:
-```html   
-<!-- True --> 
-<input type="text" name="name">
-<!-- False --> 
-<input type="text" name="username">
-```    
+
+Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input). Contoh:
+
+```html
+<form action="http://gomail.epizy.com/mail.php" method="post">
+  <!-- True --> 
+  <input type="text" name="name">
+  <!-- False --> 
+  <input type="text" name="username">
+</form>
+``` 
+Perhatikan pada atribut <code>action=""<code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>.
+
+Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code> tidak <code>value</code> untuk saat ini tidak akan dikenali oleh GoMail. Namu anda bisa menggantingannya dengan <code>name="name"</code>.
+
 Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di perbolehkan untuk menggunakan dua nilai dari atribut <code>name</code>, yaitu:
 ```html   
 <button type="submit" name="GoMail">Submit</button>
