@@ -40,12 +40,12 @@ Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, 
       <!-- Company -->
       <input value="GoMail" name="company_name">
     </div>
-
+```
 Perhatikan bagian "Recipient Information" pada kode diatas. Jika tujuan anda ingin membuat form kontak untuk seaeorang mengirim pesan kepada anda, anda bisa mengisi nilai dari atribut <code>value</code> sesuai dengan nama anda dan email anda sendiri
 
 ## Nama Input
 Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda buat dapat berfungsi dengan semestinya (masih dalam perkembangan).
-    
+```html    
     name="name"
     name="last_name"
     name="age"
@@ -65,3 +65,6 @@ Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda bua
     name="destination_name"
     name="email_destination"
     name="message_type"
+```
+
+Created 2021 by Feri Irawan
