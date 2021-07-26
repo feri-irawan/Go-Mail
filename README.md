@@ -8,7 +8,7 @@ Kirim pesan email HTML ke seseorang dengan mudah lewat web kamu sendiri.
 [http://gomail.epizy.com/](http://gomail.epizy.com/ "Go-Mail")
 
 ## Cara Menggunakan:
-Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya.
+Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya. _Tapi Anda juga bisa memanipulasinya menggunakan PHP, JavaScript atau bahasa lain_
 
 Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input). Contoh:
 
@@ -20,6 +20,7 @@ Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code>
   <input type="text" name="username">
 </form>
 ``` 
+
 Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali.
 
 Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code>. Untuk saat ini, atribut dengan nama seperti itu tidak akan dikenali oleh Go-Mail dan akan diabaikan. Namun, anda bisa menggantinya dengan <code>name="name"</code>.
