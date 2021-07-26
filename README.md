@@ -13,7 +13,7 @@ Cara menggunakannya sangat mudah, Anda hanya perlu membuat form seperti biasanya
 Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code> di tag <code>input</code> yang harus Anda tulis (sangat dibutuhkan). [Lihat nilai yg di izinkan](#nama-input). Contoh:
 
 ```html
-<form action="http://gomail.epizy.com/mail.php" method="post">
+<form action="http://gomail.epizy.com/mail" method="post">
   <!-- True --> 
   <input type="text" name="name">
   <!-- False --> 
@@ -21,7 +21,7 @@ Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code>
 </form>
 ``` 
 
-Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail.php</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali.
+Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali.
 
 Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code>. Untuk saat ini, atribut dengan nama seperti itu tidak akan dikenali oleh Go-Mail dan akan diabaikan. Namun, anda bisa menggantinya dengan <code>name="name"</code>.
 
@@ -92,7 +92,7 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 ## Simple
 ```html
 <h2>Simple Form</h2>
-<form action="http://gomail.epizy.com/mail.php" method="get">
+<form action="http://gomail.epizy.com/mail" method="get">
   <div class="mb-3">
     <label for="name">Name</label>
     <input type="text" name="name" class="form-control">
@@ -119,6 +119,9 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
     
     <!-- Company -->
     <input value="GoMail" name="company_name">
+
+    <!-- Redirect URL -->
+    <input value="http://gomail.epizy.com" name="redirect_url">
   </div>
 </form>
 ```
