@@ -158,5 +158,6 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 ```
 ## Rilis
 v1.0.0 (1/3/21)
+v1.1.0 (26/7/21)
 
 Created 2021 by Feri Irawan
