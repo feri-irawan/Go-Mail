@@ -21,7 +21,7 @@ Namun ada beberapa nilai atribut <code>action=""</code> dan <code>name=""</code>
 </form>
 ``` 
 
-Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali.
+Perhatikan pada atribut <code>action=""</code> nilai pada harus di isi dengan <code>http://gomail.epizy.com/mail</code>. Jika tidak, maka formulir tidak akan berfungsi sama sekali. Jangan lupa gunakan `method="post"`
 
 Perhatikan juga pada atribut <code>name=""</code>, input dengan nama <code>username</code>. Untuk saat ini, atribut dengan nama seperti itu tidak akan dikenali oleh Go-Mail dan akan diabaikan. Namun, anda bisa menggantinya dengan <code>name="name"</code>.
 
@@ -92,7 +92,7 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 ## Simple
 ```html
 <h2>Simple Form</h2>
-<form action="http://gomail.epizy.com/mail" method="get">
+<form action="http://gomail.epizy.com/mail" method="post">
   <div class="mb-3">
     <label for="name">Name</label>
     <input type="text" name="name" class="form-control">
@@ -129,7 +129,7 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 ## Verify Code
 ```html
 <h2>Send Verification Code</h2>
-<form action="http://gomail.epizy.com/mail.php" method="get">
+<form action="http://gomail.epizy.com/mail" method="post">
   <div class="mb-3">
     <label for="destination_name">To Name</label>
     <input type="text" name="destination_name" class="form-control">
