@@ -39,6 +39,9 @@ Hal tersebut juga berlaku untuk tombol <code>type="submit"</code>. Anda hanya di
 Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, informasi penerima pesan, atau bahkan nama perusahaan pengirim pesan.
 ```html
 <div id="GoMail">
+  <!-- Subject -->
+  <input value="Go-Mail" name="subject">
+  
   <!-- Message Type -->
   <input value="simple" name="message_type">
   
