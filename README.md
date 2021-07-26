@@ -158,6 +158,10 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
 ```
 ## Rilis
 v1.0.0 (1/3/21)
+ - Rilis
+
 v1.1.0 (26/7/21)
+ - Menambahkan redirect URL
+ - Pesan redirect
 
 Created 2021 by Feri Irawan
