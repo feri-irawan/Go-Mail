@@ -48,6 +48,9 @@ Ada bebrapa konfigurasi yang dapat anda sesuaikan sendiri, seperti jenis pesan, 
   
   <!-- Company -->
   <input value="GoMail" name="company_name">
+
+  <!-- Redirect URL -->
+  <input value="URL tujuan" name="redirect_url">
 </div>
 ```
 
@@ -55,6 +58,7 @@ Perhatikan bagain "Message Type" pada kode diatas, input dengan <code>name="mess
 
 Perhatikan bagian "Recipient Information" pada kode diatas. Jika tujuan anda ingin membuat form kontak untuk seaeorang mengirim pesan kepada anda, anda bisa mengisi nilai dari atribut <code>value</code> sesuai dengan nama anda dan email anda sendiri
 
+Perhatikan bagian "Redirect URL", itu bertujuan agar, jika pesan berhasil di kirim, maka pengguna mau di redirect ke halaman mana. Anda bisa menggunakan halaman web sendiri. (Ini optional)
 
 ## Nama Input
 Berikut adalah beberapa nama input yang dipebolehkan akan formulir yang anda buat dapat berfungsi dengan semestinya (masih dalam perkembangan).
