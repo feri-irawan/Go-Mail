@@ -113,6 +113,9 @@ Berikut ini telah saya sediakan full code HTML untuk menggunakan dua jenis/type 
  
   <!-- Coiguration GoMail -->
   <div id="GoMail">
+    <!-- Subject -->
+    <input value="Go-Mail Testing" name="subject">
+    
     <!-- Message Type -->
     <input value="simple" name="message_type">
     
